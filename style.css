@@ -30,7 +30,7 @@ header img {
     height: 90px;
     width: 700px;
     grid-template-rows: 100%;
-    grid-template-columns: "180 1800 180 auto";
+    grid-template-columns: "180 180 180 auto";
     grid-template-areas: "nav1 nav2 nav3 nav4"
 }
 
@@ -61,7 +61,6 @@ a {
 
 main{
     margin-top: 30px;
-    text-align: center;
 }
 
 #big {
@@ -99,7 +98,8 @@ p img {
 }
 
 section {
-    margin-left: 240px;
+    max-width: 980px;
+    margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
